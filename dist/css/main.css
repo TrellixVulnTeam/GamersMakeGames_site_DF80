@@ -262,6 +262,8 @@ img {
       transform: scale(1.01); }
 
 @media (max-width: 768px) {
+  br {
+    display: none; }
   .navbar {
     flex-direction: column;
     height: 80px;
