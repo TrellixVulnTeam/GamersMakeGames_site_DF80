@@ -6,10 +6,13 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 body {
-  background: #fff;
+  background: #222;
   color: #333;
   line-height: 1.6;
 }
@@ -77,8 +80,6 @@ img {
   & * {
     z-index: 10;
   }
-
-  // &.updates
 }
 
 // Footer
@@ -90,16 +91,13 @@ img {
   text-align: center;
   height: 6rem;
 
-  &* a {
-    color: #fff;
-  }
-
   & .social > * {
     margin-left: 30px;
   }
 
   & a:hover {
     color: $primary-color;
+    transition: 0.2s ease-in;
   }
 }
 
@@ -121,5 +119,47 @@ img {
     // flex-direction: column;
     height: 15rem;
     width: 15rem;
+  }
+}
+
+// Profile Pic
+.profile-pic img {
+  border-radius: 10%;
+  width: 4vw;
+}
+
+// Request Form
+.request-form {
+  width: 100%;
+  padding: 20px 0;
+
+  & label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  & .form-control {
+    margin-bottom: 15px;
+  }
+
+  & input {
+    width: 100%;
+    padding: 4px;
+    height: 40px;
+    border: $secondary-color 1px solid;
+    border-radius: 5px;
+
+    &:focus {
+      outline: $primary-color;
+    }
+  }
+
+  & .btn {
+    padding: 12px 0;
+    margin-top: 20px;
+
+    &:hover {
+      transform: scale(1.01);
+    }
   }
 }
