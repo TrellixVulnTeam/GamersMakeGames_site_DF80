@@ -37,8 +37,7 @@
 
 iframe:hover {
   transition: all 0.2s ease-in;
-  transform: scale(1.05);
-  border: 5px solid #3ec284; }
+  transform: scale(1.02); }
 
 .flex-items {
   display: flex;
@@ -286,4 +285,6 @@ img {
   .navbar a {
     margin: 0 3px;
     padding: 6px 6px;
-    font-size: 0.9rem; } }
+    font-size: 0.9rem; }
+  iframe {
+    width: 1rem; } }
