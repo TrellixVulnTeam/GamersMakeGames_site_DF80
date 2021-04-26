@@ -23,12 +23,12 @@
 
 .btn-dark,
 .bg-dark {
-  background: #444;
+  background: #222;
   color: #fff; }
 
 .btn-light,
 .bg-light {
-  background: #f4f4f4;
+  background: #dddada;
   color: #333; }
 
 .btn-outline {
