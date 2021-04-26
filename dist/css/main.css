@@ -218,10 +218,6 @@ img {
   .hero * {
     z-index: 10; }
 
-#updates,
-#info {
-  height: 100vh; }
-
 .footer {
   display: flex;
   flex-direction: row;
