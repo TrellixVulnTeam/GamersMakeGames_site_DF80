@@ -37,6 +37,12 @@
   font-size: 1.2rem;
 }
 
+.bg-dark-x2 {
+  background: #222;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
 .btn-light,
 .bg-light {
   background: $light-color;
@@ -105,13 +111,19 @@ iframe {
     padding: 30px;
   }
 
+  .column-updates {
+    max-width: 50%;
+    margin: auto;
+    margin-bottom: 5rem;
+  }
+
   & .column-3 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 30px;
-    height: 30vh;
+    height: 40vh;
 
     & img {
       height: 10rem;

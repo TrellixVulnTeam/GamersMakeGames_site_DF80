@@ -31,6 +31,11 @@
   color: #fff;
   font-size: 1.2rem; }
 
+.bg-dark-x2 {
+  background: #222;
+  color: #fff;
+  font-size: 1.2rem; }
+
 .btn-light,
 .bg-light {
   background: #dddada;
@@ -79,13 +84,18 @@ iframe:hover {
   justify-content: center;
   padding: 30px; }
 
+.flex-columns .column-updates {
+  max-width: 50%;
+  margin: auto;
+  margin-bottom: 5rem; }
+
 .flex-columns .column-3 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 30px;
-  height: 30vh; }
+  height: 40vh; }
   .flex-columns .column-3 img {
     height: 10rem;
     width: 10rem; }
@@ -135,6 +145,8 @@ iframe:hover {
   color: #fff;
   opacity: 0.7;
   width: 100%;
+  max-width: 80%;
+  margin: auto;
   height: 70px;
   position: fixed;
   top: 0;
@@ -167,8 +179,10 @@ iframe:hover {
 
 body {
   background: #222;
-  color: #333;
-  line-height: 1.6; }
+  color: #fff;
+  line-height: 1.6;
+  max-width: 80%;
+  margin: auto; }
 
 ul {
   list-style: none; }
@@ -187,6 +201,9 @@ p {
 
 img {
   width: 100%; }
+
+br {
+  display: none; }
 
 .hero {
   background: url("/dist/images/banner-img.jpg") no-repeat center center/cover;
@@ -274,10 +291,13 @@ img {
 @media (max-width: 768px) {
   br {
     display: none; }
+  body {
+    max-width: 100%; }
   .navbar {
     flex-direction: column;
     height: 80px;
-    padding: 20px; }
+    padding: 20px;
+    max-width: 100%; }
     .navbar a {
       padding: 3px 10px;
       margin: 0 3px;
@@ -302,9 +322,12 @@ img {
     width: 100vw; } }
 
 @media (max-height: 400px) {
+  body {
+    max-width: 100%; }
   .navbar {
     height: 40px;
-    padding: 20px; }
+    padding: 20px;
+    max-width: 100%; }
     .navbar .logo {
       font-size: 1.2rem; }
     .navbar a {

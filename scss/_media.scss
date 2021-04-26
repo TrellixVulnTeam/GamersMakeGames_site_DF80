@@ -2,10 +2,16 @@
   br {
     display: none;
   }
+
+  body {
+    max-width: 100%;
+  }
+
   .navbar {
     flex-direction: column;
     height: 80px;
     padding: 20px;
+    max-width: 100%;
 
     & a {
       padding: 3px 10px;
@@ -40,6 +46,7 @@
   .flex-columns .column-3 {
     height: 50vh;
   }
+
   .logo {
     font-size: 1.2rem;
   }
@@ -50,9 +57,14 @@
 }
 
 @media (max-height: 400px) {
+  body {
+    max-width: 100%;
+  }
+
   .navbar {
     height: 40px;
     padding: 20px;
+    max-width: 100%;
     & .logo {
       font-size: 1.2rem;
     }
