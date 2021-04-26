@@ -54,6 +54,14 @@
   iframe {
     width: 100vw;
   }
+
+  .footer {
+    flex-direction: column;
+    height: 15vh;
+    & .social > * {
+      margin-left: 0;
+    }
+  }
 }
 
 @media (max-height: 400px) {

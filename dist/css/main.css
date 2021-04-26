@@ -235,20 +235,6 @@ br {
   .hero * {
     z-index: 10; }
 
-.footer {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  height: 6rem; }
-  .footer .social > * {
-    margin-left: 30px;
-    color: #222; }
-  .footer a:hover {
-    color: #3ec284;
-    transition: 0.2s ease-in; }
-
 .icons {
   padding: 2.5rem;
   display: flex;
@@ -288,6 +274,20 @@ br {
     .request-form .btn:hover {
       transform: scale(1.01); }
 
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 6rem; }
+  .footer .social > * {
+    margin-left: 30px;
+    color: #222; }
+  .footer a:hover {
+    color: #3ec284;
+    transition: 0.2s ease-in; }
+
 @media (max-width: 768px) {
   br {
     display: none; }
@@ -319,7 +319,12 @@ br {
   .logo {
     font-size: 1.2rem; }
   iframe {
-    width: 100vw; } }
+    width: 100vw; }
+  .footer {
+    flex-direction: column;
+    height: 15vh; }
+    .footer .social > * {
+      margin-left: 0; } }
 
 @media (max-height: 400px) {
   body {

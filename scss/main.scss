@@ -96,26 +96,6 @@ br {
 //   height: 100vh;
 // }
 
-// Footer
-.footer {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  height: 6rem;
-
-  & .social > * {
-    margin-left: 30px;
-    color: #222;
-  }
-
-  & a:hover {
-    color: $primary-color;
-    transition: 0.2s ease-in;
-  }
-}
-
 // Icons
 .icons {
   padding: 2.5rem;
@@ -179,4 +159,23 @@ br {
   }
 }
 
+// Footer
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 6rem;
+
+  & .social > * {
+    margin-left: 30px;
+    color: #222;
+  }
+
+  & a:hover {
+    color: $primary-color;
+    transition: 0.2s ease-in;
+  }
+}
 @import 'media';
