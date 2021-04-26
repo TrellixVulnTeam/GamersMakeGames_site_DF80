@@ -1,7 +1,7 @@
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
-    height: 120px;
+    height: 80px;
     padding: 20px;
 
     & a {
@@ -23,10 +23,16 @@
   .logo {
     font-size: 1.4rem;
   }
+
+  iframe {
+    width: 100vw;
+  }
 }
 
 @media (max-height: 400px) {
   .navbar {
+    height: 40px;
+    padding: 20px;
     & .logo {
       font-size: 1.2rem;
     }
@@ -39,6 +45,6 @@
   }
 
   iframe {
-    width: 1rem;
+    width: 100vw;
   }
 }
