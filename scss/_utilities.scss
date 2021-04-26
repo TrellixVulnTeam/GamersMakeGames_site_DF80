@@ -7,6 +7,7 @@
   background-color: $primary-color;
   border: none;
   border-radius: 5px;
+  font-size: 1.2rem;
 
   &:hover {
     opacity: 0.85;
@@ -18,25 +19,29 @@
 .btn-primary,
 .bg-primary {
   background: $primary-color;
-  color: #fff;
+  color: #f4f4f4;
+  font-size: 1.2rem;
 }
 
 .btn-secondary,
 .bg-secondary {
   background: $secondary-color;
   color: #fff;
+  font-size: 1.2rem;
 }
 
 .btn-dark,
 .bg-dark {
   background: $dark-color;
   color: #fff;
+  font-size: 1.2rem;
 }
 
 .btn-light,
 .bg-light {
   background: $light-color;
   color: #333;
+  font-size: 1.2rem;
 }
 
 .btn-outline {
