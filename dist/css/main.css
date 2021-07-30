@@ -1,36 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Ubuntu:wght@400;700&display=swap");
 .btn {
-  cursor: pointer;
   display: inline-block;
   padding: 10px 30px;
   color: #fff;
-  background-color: #00eff4;
+  background-color: #35b6bd;
   border: none;
   border-radius: 5px;
   font-size: 1.2rem; }
   .btn:hover {
     opacity: 0.85;
     transform: scale(1.03);
-    transition: 0.1s ease-in;
-    cursor: pointer; }
+    transition: 0.1s ease-in; }
 
 .btn-primary,
 .bg-primary {
-  background: #00eff4;
+  background: #35b6bd;
   color: #f4f4f4;
   font-size: 1.2rem; }
 
 .btn-secondary,
 .bg-secondary {
-  background: #8151f2;
+  background: #7355f5;
   color: #fff;
   font-size: 1.2rem; }
 
 .btn-secondary:hover {
   opacity: 0.85;
   transform: scale(1.01);
-  transition: 0.1s ease-in;
-  cursor: pointer; }
+  transition: 0.1s ease-in; }
 
 .btn-dark,
 .bg-dark {
@@ -166,14 +163,14 @@ iframe:hover {
     margin: 0 20px;
     font-size: 1.15rem; }
     .navbar a:hover {
-      border-bottom: #00eff4 2px solid; }
+      border-bottom: #35b6bd 2px solid; }
   .navbar ul {
     display: flex; }
   .navbar li:hover {
     transform: scale(1.2);
     transition: 0.2s ease; }
   .navbar h1:hover {
-    color: #00eff4;
+    color: #35b6bd;
     transform: scale(1.025);
     transition: 0.2s ease-in; }
 
@@ -275,12 +272,11 @@ br {
     width: 100%;
     padding: 4px;
     height: 40px;
-    border: #8151f2 1px solid;
+    border: #7355f5 1px solid;
     border-radius: 5px; }
     .request-form input:focus {
-      outline: #00eff4; }
+      outline: #35b6bd; }
   .request-form .btn {
-    width: 10%;
     margin: auto; }
     .request-form .btn:hover {
       transform: scale(1.03); }
@@ -296,7 +292,7 @@ br {
     margin-left: 30px;
     color: #222; }
   .footer a:hover {
-    color: #00eff4;
+    color: #35b6bd;
     transition: 0.2s ease-in; }
 
 @media (max-width: 768px) {

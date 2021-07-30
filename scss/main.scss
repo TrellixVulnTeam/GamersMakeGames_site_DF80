@@ -12,6 +12,7 @@
   &::-webkit-scrollbar {
     display: none;
   }
+  //cursor: url('/dist/images///cursor.png'), auto;
 }
 
 body {
@@ -20,6 +21,7 @@ body {
   line-height: 1.6;
   max-width: 100%;
   margin: auto;
+  //cursor: url('/dist/images///cursor.png'), auto;
 }
 
 ul {
@@ -29,6 +31,7 @@ ul {
 a {
   color: #333;
   text-decoration: none;
+  //cursor: url('/dist/images///cursor_Fill.png'), auto;
 }
 
 h1,
@@ -147,7 +150,7 @@ br {
   }
 
   & .btn {
-    width: 10%;
+    // width: 10%;
     margin: auto;
 
     &:hover {
@@ -173,6 +176,10 @@ br {
   & a:hover {
     color: $primary-color;
     transition: 0.2s ease-in;
+  }
+
+  & i {
+    //cursor: url('/dist/images///cursor_Fill.png'), auto;
   }
 }
 @import 'media';
