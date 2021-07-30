@@ -4,13 +4,13 @@ let scrolled = true;
 window.onscroll = function () {
   if (window.pageYOffset > 100) {
     navbar.classList.remove('top');
-    if (!scrolled) {
-      navbar.style.transform = 'translateY(-300px)';
-    }
-    setTimeout(function () {
-      navbar.style.transform = 'translateY(0)';
-      scrolled = true;
-    }, 400);
+    // if (!scrolled) {
+    //   navbar.style.transform = 'translateY(-300px)';
+    // }
+    // setTimeout(function () {
+    //   navbar.style.transform = 'translateY(0)';
+    //   scrolled = true;
+    // }, 400);
   } else {
     navbar.classList.add('top');
     scrolled = false;
