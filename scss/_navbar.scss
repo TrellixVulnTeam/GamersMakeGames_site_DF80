@@ -34,13 +34,13 @@
 
   & li:hover {
     transform: scale(1.2);
-    transition: 0.2s ease;
+    transition: all 0.1s ease-in;
   }
 
   & h1:hover {
     color: $primary-color;
     transform: scale(1.025);
-    transition: 0.2s ease-in;
+    transition: all 0.2s ease-in;
   }
 }
 

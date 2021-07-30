@@ -168,11 +168,11 @@ iframe:hover {
     display: flex; }
   .navbar li:hover {
     transform: scale(1.2);
-    transition: 0.2s ease; }
+    transition: all 0.1s ease-in; }
   .navbar h1:hover {
     color: #35b6bd;
     transform: scale(1.025);
-    transition: 0.2s ease-in; }
+    transition: all 0.2s ease-in; }
 
 .top {
   background-color: rgba(4, 4, 4, 0.5); }
