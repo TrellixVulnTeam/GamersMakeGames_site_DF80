@@ -4,26 +4,33 @@
   display: inline-block;
   padding: 10px 30px;
   color: #fff;
-  background-color: #3ec284;
+  background-color: #00eff4;
   border: none;
   border-radius: 5px;
   font-size: 1.2rem; }
   .btn:hover {
     opacity: 0.85;
-    transform: scale(1.1);
-    transition: 0.2s ease-in; }
+    transform: scale(1.03);
+    transition: 0.1s ease-in;
+    cursor: pointer; }
 
 .btn-primary,
 .bg-primary {
-  background: #3ec284;
+  background: #00eff4;
   color: #f4f4f4;
   font-size: 1.2rem; }
 
 .btn-secondary,
 .bg-secondary {
-  background: #3ebec2;
+  background: #8151f2;
   color: #fff;
   font-size: 1.2rem; }
+
+.btn-secondary:hover {
+  opacity: 0.85;
+  transform: scale(1.01);
+  transition: 0.1s ease-in;
+  cursor: pointer; }
 
 .btn-dark,
 .bg-dark {
@@ -143,7 +150,7 @@ iframe:hover {
   justify-content: space-between;
   background-color: #333;
   color: #fff;
-  opacity: 0.7;
+  opacity: 0.9;
   width: 100%;
   max-width: 100%;
   margin: auto;
@@ -151,23 +158,27 @@ iframe:hover {
   position: fixed;
   top: 0;
   padding: 0 30px;
-  transition: 0.5s ease-in; }
+  transition: 0.5s ease-in;
+  z-index: 500; }
   .navbar a {
     color: #fff;
     padding: 2px 2px;
     margin: 0 20px;
     font-size: 1.15rem; }
     .navbar a:hover {
-      border-bottom: #3ec284 2px solid; }
+      border-bottom: #00eff4 2px solid; }
   .navbar ul {
     display: flex; }
   .navbar li:hover {
     transform: scale(1.2);
     transition: 0.2s ease; }
   .navbar h1:hover {
-    color: #3ec284;
+    color: #00eff4;
     transform: scale(1.025);
     transition: 0.2s ease-in; }
+
+.top {
+  background-color: rgba(4, 4, 4, 0.5); }
 
 * {
   font-family: 'Montserrat', sans-serif;
@@ -209,7 +220,8 @@ br {
   background: url("/dist/images/banner-img.jpg") no-repeat center center/cover;
   height: 100vh;
   position: relative;
-  color: #fff; }
+  color: #fff;
+  z-index: 0; }
   .hero .content {
     display: flex;
     flex-direction: column;
@@ -217,7 +229,8 @@ br {
     justify-content: center;
     text-align: center;
     height: 100%;
-    padding: 0 20px; }
+    padding: 0 20px;
+    position: relative; }
     .hero .content h1 {
       font-size: 2.5rem; }
     .hero .content p {
@@ -232,8 +245,6 @@ br {
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.55); }
-  .hero * {
-    z-index: 10; }
 
 .icons {
   padding: 2.5rem;
@@ -264,10 +275,10 @@ br {
     width: 100%;
     padding: 4px;
     height: 40px;
-    border: #3ebec2 1px solid;
+    border: #8151f2 1px solid;
     border-radius: 5px; }
     .request-form input:focus {
-      outline: #3ec284; }
+      outline: #00eff4; }
   .request-form .btn {
     width: 10%;
     margin: auto; }
@@ -285,7 +296,7 @@ br {
     margin-left: 30px;
     color: #222; }
   .footer a:hover {
-    color: #3ec284;
+    color: #00eff4;
     transition: 0.2s ease-in; }
 
 @media (max-width: 768px) {

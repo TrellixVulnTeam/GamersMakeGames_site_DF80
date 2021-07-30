@@ -1,5 +1,5 @@
 const navbar = document.getElementById('navbar');
-let scrolled = false;
+let scrolled = true;
 
 window.onscroll = function () {
   if (window.pageYOffset > 100) {
